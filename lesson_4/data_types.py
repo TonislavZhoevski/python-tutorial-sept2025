@@ -1,6 +1,7 @@
 # String data type
 
 # Literal assignment
+import math
 first = "Tony"
 last = "Zhoevski"
 
@@ -109,3 +110,27 @@ comp_value = 5+3j
 print(type(comp_value))
 print(comp_value.real)
 print(comp_value.imag)
+
+# Bult-in functions for numbers
+
+print(abs(gpa))
+print(abs(gpa * -1))
+
+print(round(gpa))
+
+print(round(gpa, 1))
+
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# Casting a string to a number
+zipcode = "10001"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# Error if you attempt to cast incorrevt data
+# zip_value = int("New York")
+
